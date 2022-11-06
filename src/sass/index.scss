@@ -1,9 +1,19 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url('../../public/background-image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .footer{
     margin-top: 1rem;
     padding:5px;
-    background-color: #C4CAD7;
+    background-color: #f0f1f3;
     position: fixed;
     bottom: 0;
     left: 0;

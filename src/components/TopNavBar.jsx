@@ -11,7 +11,7 @@ import Image from 'react-bootstrap/Image'
 import Stack from 'react-bootstrap/Stack';
 import { NavItem } from "react-bootstrap";
 import {NavLink} from "react-bootstrap";
-import Home from "./Home";
+import Home from "../pages/Home";
 
 
 
