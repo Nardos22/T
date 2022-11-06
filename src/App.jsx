@@ -1,15 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import MissingPage from './pages/MissingPage';
 import Header from "./components/TopNavBar";
 import Footer from "./components/Footer";
-import Tickets from "./components/Tickets";
-import LogIn from "./components/LogIn";
+import Tickets from "./pages/Tickets";
+import LogIn from "./pages/LogIn";
 function App() {
   return (
       <div> 
-        <Home></Home>
       <BrowserRouter>
             <Header></Header>
                 <Routes>
